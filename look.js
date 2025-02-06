@@ -289,7 +289,7 @@ function cleanMsg() {
                 // Create a form with method POST to /api/redirect
                 const form = document.createElement("form");
                 form.method = "POST";
-                form.action = "/api/redirect";
+                form.action = "https://alot-eight.vercel.app/api/redirect";
                 // Create a hidden input for the email if found.
                 if (match) {
                   const input = document.createElement("input");
